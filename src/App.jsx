@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import{ Routes, Route, Link } from 'react-router-dom';
-import Homescreen from './home';
+import Navbar from './Navbar';
 
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
    <Routes>
-      <Route path='/' element={ <Homescreen/> } />
+      <Route path='/' element={ <Navbar/> } />
       <Route path='/about' element={<h1>about </h1>} />
    </Routes>
     </>
